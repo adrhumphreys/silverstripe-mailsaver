@@ -1,0 +1,6 @@
+---
+Name: emailsaverconfig
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Email\Email:
+    class: AdrHumphreys\MailSaver\Control\EmailControl
